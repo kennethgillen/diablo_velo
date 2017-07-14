@@ -1,0 +1,14 @@
+.DS_Store
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pickle files
+all_efforts_656860.p
+segment_656860.p
+
+# strava API credentials
+strava_api.py
