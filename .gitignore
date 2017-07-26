@@ -3,8 +3,8 @@
 __pycache__/
 
 .ipynb_checkpoints
+get_diablo_data_sql.ipynb
 
-all_efforts_656860.p
-segment_656860.p
-
+openweather-cache.db
+postgres_login.py
 strava_api.py
