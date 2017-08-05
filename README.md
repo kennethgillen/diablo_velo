@@ -10,6 +10,6 @@ The code in this repo obtains all cycling efforts on the Diablo Northgate-to-Sum
 * Note that all code was written in Python 3
 
 ## Usage
-* Run `get_diablo_data.ipynb` to retrieve the data from Strava and Weather Underground
-* Run `clean_diablo_data.ipynb` to convert the Strava Data from JSON format to a pandas dataframe, join the cleaned Strava data with the Weather Undergound data, transform and generate some features, and export the joined, cleaned data to a CSV file
-* Run `explore_and_model_diablo_data.ipynb` to generate exploratory graphics and train a regression model on the data
+1. Run `get_diablo_data.ipynb` to retrieve the data from Strava and Weather Underground
+2. Run `clean_diablo_data.ipynb` to convert the Strava Data from JSON format to a pandas dataframe, join the cleaned Strava data with the Weather Undergound data, transform and generate some features, and export the joined, cleaned data to a CSV file
+3. Run `explore_and_model_diablo_data.ipynb` to generate exploratory graphics and train a regression model on the data
