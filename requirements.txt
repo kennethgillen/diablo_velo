@@ -1,0 +1,12 @@
+bs4
+csv
+matplotlib
+numpy
+os
+pandas
+pickle
+requests
+seaborn
+sys
+time
+urllib
