@@ -12,6 +12,6 @@ For visualizations of the data and interpretations and conclusions from the anal
 * Note that all code was written in Python 3
 
 ## Usage
-1. Run `get_diablo_data.ipynb` to retrieve the data from Strava and Weather Underground
-2. Run `clean_diablo_data.ipynb` to convert the Strava Data from JSON format to a pandas dataframe, join the cleaned Strava data with the Weather Undergound data, transform and generate some features, and export the joined, cleaned data to a CSV file
-3. Run `explore_and_model_diablo_data.ipynb` to generate exploratory graphics and train a ridge regression model on the data
+1. `get_diablo_data.ipynb` retrieves the data from Strava and Weather Underground
+2. `clean_diablo_data.ipynb` wrangles the Strava data from JSON format to a pandas dataframe, joins the cleaned Strava data with the Weather Undergound data, transforms and generates some additional features, and exports the joined, cleaned data to a CSV file
+3. `explore_and_model_diablo_data.ipynb` generates exploratory graphics and trains a ridge regression model on the data
