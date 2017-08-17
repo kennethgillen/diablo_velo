@@ -3,6 +3,8 @@
 
 The code in this repo obtains all cycling efforts on the Diablo Northgate-to-Summit segment from [Strava's API](https://strava.github.io/api/), scrapes weather data from [Weather Underground's weather history page](https://www.wunderground.com/history/airport/KCCR/2006/1/1/DailyHistory.html?req_city=Walnut+Creek&req_state=CA&req_statename=California&reqdb.zip=94595&reqdb.magic=1&reqdb.wmo=99999) for the days corresponding to each cycling effort, combines and cleans the data, graphically explores the data, and trains a ridge regression model to predict riders' moving times based on performance- and weather-related features.
 
+For visualizations of the data and interpretations and conclusions from the analysis, see the `explore_and_model_diablo_data.ipynb` notebook.
+
 ## Requirements
 * Install the required libraries by running `pip install -r requirements.txt` from the repo directory
 * A Strava API access token is required to access Strava's API (see authentication details [here](https://strava.github.io/api/v3/oauth/)). 
@@ -13,4 +15,3 @@ The code in this repo obtains all cycling efforts on the Diablo Northgate-to-Sum
 1. Run `get_diablo_data.ipynb` to retrieve the data from Strava and Weather Underground
 2. Run `clean_diablo_data.ipynb` to convert the Strava Data from JSON format to a pandas dataframe, join the cleaned Strava data with the Weather Undergound data, transform and generate some features, and export the joined, cleaned data to a CSV file
 3. Run `explore_and_model_diablo_data.ipynb` to generate exploratory graphics and train a ridge regression model on the data
-    - **see the end of this notebook for interpretations and conclusions from the analysis**
