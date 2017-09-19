@@ -10,4 +10,4 @@ seaborn
 sklearn
 sys
 time
-urllib
+urllib3
